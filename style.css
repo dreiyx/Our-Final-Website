@@ -1,0 +1,226 @@
+body{
+    overflow-x: hidden;  
+}
+.navbar a{
+    text-decoration-color: aqua;
+    
+}
+a>img{
+    width: 200px;
+    height: 100px;
+
+}
+.collapse:hover{
+    color: aqua;
+}
+
+.carousel-caption h1 {
+    color:lightblue;
+  align-items: flex-start;
+    
+}
+.carousel-caption a {
+    color: aliceblue;
+  align-items: flex-start;
+    
+}
+.carousel-caption p {
+    color: aliceblue;
+  align-items: flex-start;
+    
+}
+
+.card-content{
+    background: #fff;
+    height: 330px;
+    background-image: url(img/c1.jpg);
+    flex-direction: column;
+
+}
+.card-content h3{
+    text-align: center;
+    color: #000;
+    padding: 25px 0 10px 0;
+    font-size: 26px;
+    font-weight: 500;
+}
+.form-row{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+form select, form input{
+    display: block;
+    width: 100%;
+    margin: 15px 12px;
+    padding: 5px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #eee;
+    font-weight: 300;
+
+}
+form input[type = text], form input[type = number], form input::placeholder, select{
+    color: #9a9a9a;
+}
+form input[type = submit]{
+    color: #fff;
+    background: #f2745f;
+    padding: 12px 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+form input[type = submit]:hover{
+    opacity: 0.9;
+}
+.card-content>h2{
+color: lightblue;
+}
+.card-content>h3{
+    color: lightblue;
+    }
+
+/*----*/
+footer{
+    width: 100%;
+    height: 90vh;
+    background-color: rgb(31, 29, 29);
+    padding: 24px;
+}
+.footer-container{
+    margin-top: 20px;
+    padding: 30px 4px 9px 4px;    
+}
+.footer-logo{
+    color: rgba(255, 255, 255, 0.863);
+    letter-spacing: 2px;
+    font-weight: 800;
+}
+.footer-para{
+    font-size: 14px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.534);
+    margin: 25px 0px;
+}
+.heading-sm-footer{
+    color: rgba(255, 255, 255, 0.863);
+    font-size: 22px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    margin: 18px 0px;
+    
+}
+.social-link-footer{
+    margin: 16px 0px;
+}
+.icon-social-footer{
+    font-size: 21px;
+    padding: 9px;
+    border: 1px solid rgb(13, 196, 13);
+    color: rgb(13, 196, 13);
+    margin: 0px 4px;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+.icon-social-footer:hover{
+    background-color: rgb(13, 196, 13);
+    color: white;
+}
+.pages-footer{
+    padding: 6px 18px;
+}
+
+.heading-pages{
+    color: rgba(255, 255, 255, 0.863);
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+.footer-links{
+    font-size: 15px !important;
+    color: rgba(255, 255, 255, 0.534) !important;
+}
+.footer-links:hover{
+    color: white !important;
+}
+.contact-footer{
+    display: flex;
+    flex-direction: column;
+}
+.text-contact{
+    margin: 16px 0px;
+    color: white;
+    font-size: 19px;
+    color: rgba(255, 255, 255, 0.534);
+}
+.footer-icons{
+    font-size: 19px;
+    color: rgba(255, 255, 255, 0.863);
+    padding: 0px 9px;
+}
+.footer-rights{
+    margin-top: 22px;
+    border-top: 1px solid rgba(255, 255, 255, 0.32);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rights-para{
+    margin: 0px;
+    color: rgba(255, 255, 255, 0.623);
+    font-size: 16px;
+}
+footer{
+    width: 100%;
+    height: auto;
+}
+.services{
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    color: #000;
+}
+.packages{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    padding: 13px 0px;
+    margin: 10px 0px;
+}
+.container-packages{
+    margin-top: 62px;
+}
+.content-packages{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    transition: 0.2s ease;
+}
+.content-packages:hover{
+    box-shadow: 1px 1px 10px gray;
+}
+
+.img-packages{
+    width: 100%;
+    height: 240px;
+}
+.image-package{
+    width: 100%;
+    height: 100%;
+}
+.content-package-container{
+    padding: 18px;
+}
+.details-package{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    flex-direction: column;
+    
+}

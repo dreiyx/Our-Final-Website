@@ -1,0 +1,40 @@
+.packages{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    padding: 13px 0px;
+    margin: 10px 0px;
+}
+.container-packages{
+    margin-top: 62px;
+}
+.content-packages{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    transition: 0.2s ease;
+}
+.content-packages:hover{
+    box-shadow: 1px 1px 10px gray;
+}
+
+.img-packages{
+    width: 100%;
+    height: 240px;
+}
+.image-package{
+    width: 100%;
+    height: 100%;
+}
+.content-package-container{
+    padding: 18px;
+}
+.details-package{
+    display: flex;
+    justify-content: space-between;
+}
+a>img{
+    width: 200px;
+    height: 100px;
+
+}
